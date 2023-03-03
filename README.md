@@ -4,23 +4,24 @@
   
 - Архитектурный паттерн MVC:  
   
-- :seedling: Поиск по коктелйям на публичном API
+- Поиск по коктелйям на публичном API
   
-- :seedling: Парсинг JSON
+- Парсинг JSON
   
-- :seedling: Фреймворк Alamofire
+- Фреймворк Alamofire
   
-- :seedling: Передача данных с одного экрана на другой
+- Передача данных с одного экрана на другой
   
-- :seedling: DispatchQueue
+- DispatchQueue
   
-- :seedling: NSCache
+- NSCache
   
-- :seedling: Валидация текстового поля
+- Валидация текстового поля
   
-- :seedling: Архитектурый паттерн MVVM
+- Архитектурый паттерн MVVM
 
 - :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-kakbar-blue?style=flat&logo=Linkedin&logoColor=white)](your-linkedin-url)
+  
   <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original-wordmark.svg" title="Java" alt="Java" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/spring/spring-original-wordmark.svg" title="Spring" alt="Spring" width="40" height="40"/>&nbsp;
