@@ -29,6 +29,7 @@
   
 - Архитектурый паттерн MVVM
 
+  <br>
   
 <img width="335" alt="Снимок экрана 2023-03-03 в 14 01 53" src="https://user-images.githubusercontent.com/124161661/222704203-ebbfe17a-5404-4704-9249-262253de4d0a.png">
 
