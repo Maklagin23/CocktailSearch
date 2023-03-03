@@ -1,8 +1,7 @@
 # Cocktail Search
-### :man_technologist: About project Cocktail Seatch :
-<div>
-  
-  
+### :man_technologist: About project Cocktail Seatch
+
+<div>  
   
 - Архитектурный паттерн MVC:
   
