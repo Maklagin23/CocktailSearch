@@ -48,7 +48,7 @@
   
   ---
 
-  - :mailbox: Для связи со мной: [![Linkedin Badge](https://img.shields.io/badge/-kakbar-blue?style=flat&logo=Linkedin&logoColor=white)](your-linkedin-url)
+  - :mailbox: Для связи со мной: [![Linkedin Badge](https://img.shields.io/badge/-kakbar-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/maklagin/)
 
   
   </div>
