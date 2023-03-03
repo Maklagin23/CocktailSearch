@@ -1,8 +1,10 @@
 # 🍸 Cocktail Search
 ### :man_technologist: About project Cocktail Seatch
 
-<div>  
-  <br>
+<div>
+  
+<br>
+  
 - Архитектурный паттерн MVC:
   
 - Принципы ООП
