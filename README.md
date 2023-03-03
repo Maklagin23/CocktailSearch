@@ -4,7 +4,7 @@
   
 - Архитектурный паттерн MVC:
   
-- ООП
+- Принципы ООП
   
 - Life Cycle View
 
@@ -26,9 +26,7 @@
   
 - Архитектурый паттерн MVVM
 
-  
-- :mailbox: Для связи со мной: [![Linkedin Badge](https://img.shields.io/badge/-kakbar-blue?style=flat&logo=Linkedin&logoColor=white)](your-linkedin-url)
-  
+    
   <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original-wordmark.svg" title="Java" alt="Java" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/spring/spring-original-wordmark.svg" title="Spring" alt="Spring" width="40" height="40"/>&nbsp;
@@ -47,5 +45,10 @@
 <img width="335" alt="Снимок экрана 2023-03-03 в 14 01 53" src="https://user-images.githubusercontent.com/124161661/222704203-ebbfe17a-5404-4704-9249-262253de4d0a.png">
 
 <img width="328" alt="Снимок экрана 2023-03-03 в 14 02 09" src="https://user-images.githubusercontent.com/124161661/222704403-8fec1f8e-f83d-4d60-9e97-5d115ca43ffb.png">
+  
+  ---
 
+  - :mailbox: Для связи со мной: [![Linkedin Badge](https://img.shields.io/badge/-kakbar-blue?style=flat&logo=Linkedin&logoColor=white)](your-linkedin-url)
+
+  
   </div>
