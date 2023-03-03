@@ -49,11 +49,11 @@
   ---
 <div id="badges">
 
-  - :mailbox: Для связи со мной: 
+  - 📫 Для связи со мной: 
   [![Linkedin Badge](https://img.shields.io/badge/-LinkdIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/maklagin/)
   
  
-  - 📧: 6166462@mail.ru
+  - 📧 6166462@mail.ru
 
 
   </div>
