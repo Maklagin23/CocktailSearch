@@ -53,6 +53,8 @@
   [![Linkedin Badge](https://img.shields.io/badge/-LinkdIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/maklagin/)
   
   [![Gmail Badge](https://img.shields.io/badge/gmail-blue?logo=gmail&logoColor=white&style=for-the-badge)](kulagin.life@gmail.com)
+ 
+  <p>По всем вопросам <a href="kulagin.life@gmail.com">пишите письма</a></p>
 
 
   </div>
