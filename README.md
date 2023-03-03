@@ -2,6 +2,8 @@
 ### :man_technologist: About project Cocktail Seatch :
 <div>
   
+  ---
+  
 - Архитектурный паттерн MVC:
   
 - Принципы ООП
