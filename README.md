@@ -49,10 +49,10 @@
   ---
 <div id="badges">
 
-  - :mailbox: Для связи со мной: 
+  - :mailbox: Для связи со мной: </div>
   [![Linkedin Badge](https://img.shields.io/badge/-LinkdIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/maklagin/)
+</div>
+  [![Gmail Badge](https://img.shields.io/badge/gmail-blue?logo=gmail&logoColor=white&style=for-the-badge)](kulagin.life@gmail.com)
 
-  [![Gmail Badge](https://img.shields.io/badge/gmail-blue?logo=gmail&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/maklagin/)
 
-  <p>По всем вопросам <a href="mailto:vlad@webref.ru">пишите письма</a></p>
   </div>
