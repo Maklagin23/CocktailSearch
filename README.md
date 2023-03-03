@@ -2,7 +2,7 @@
 ### :man_technologist: About CocktailSeatch :
 <div>
   
-- :seedling: Архитектурный паттерн MVC:  
+- Архитектурный паттерн MVC:  
   
 - :seedling: Поиск по коктелйям на публичном API
   
