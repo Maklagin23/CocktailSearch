@@ -1,4 +1,4 @@
-# Cocktail Search
+# 🍸 Cocktail Search
 ### :man_technologist: About project Cocktail Seatch
 
 <div>  
