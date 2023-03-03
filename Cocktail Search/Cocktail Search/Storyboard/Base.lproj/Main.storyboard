@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Drink View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="DrinkViewController" customModule="Cocktail_Search" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="05T-gt-hox">
+                                <rect key="frame" x="16" y="300" width="343" height="64.5"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search Cocktails" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="81l-Cx-QU4">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" returnKeyType="search" enablesReturnKeyAutomatically="YES"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="11o-7V-aV8"/>
+                                        </connections>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xzi-9k-ews" userLabel="Wrong Format Message Label">
+                                        <rect key="frame" x="0.0" y="44" width="343" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="05T-gt-hox" secondAttribute="trailing" constant="16" id="29I-gV-wCT"/>
+                            <constraint firstItem="05T-gt-hox" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="300" id="3p6-af-I5f"/>
+                            <constraint firstItem="05T-gt-hox" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="leS-3a-eac"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="errorNotificationLabel" destination="xzi-9k-ews" id="Kda-Hb-zoM"/>
+                        <outlet property="searchDrinksTextField" destination="81l-Cx-QU4" id="EoP-9S-gKd"/>
+                        <segue destination="TNq-5E-j5A" kind="presentation" identifier="showDetails" id="5jD-Ku-bKf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="104.58015267175573" y="-2.1126760563380285"/>
+        </scene>
+        <!--Drink Details View Controller-->
+        <scene sceneID="T5D-Av-bVf">
+            <objects>
+                <viewController id="TNq-5E-j5A" customClass="DrinkDetailsViewController" customModule="Cocktail_Search" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ef2-UG-u48">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cocktail Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xzq-cs-KoX">
+                                <rect key="frame" x="16" y="599.5" width="343" height="27.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ujg-xO-J5N">
+                                <rect key="frame" x="16" y="20" width="343" height="571.5"/>
+                                <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mCP-Zk-lpD"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Xzq-cs-KoX" firstAttribute="leading" secondItem="mCP-Zk-lpD" secondAttribute="leading" constant="16" id="AWA-eg-Nn2"/>
+                            <constraint firstItem="Xzq-cs-KoX" firstAttribute="top" secondItem="ujg-xO-J5N" secondAttribute="bottom" constant="8" symbolic="YES" id="TTi-ou-opu"/>
+                            <constraint firstItem="mCP-Zk-lpD" firstAttribute="trailing" secondItem="Xzq-cs-KoX" secondAttribute="trailing" constant="16" id="erN-et-8Nk"/>
+                            <constraint firstItem="ujg-xO-J5N" firstAttribute="leading" secondItem="mCP-Zk-lpD" secondAttribute="leading" constant="16" id="k3G-8e-bze"/>
+                            <constraint firstItem="ujg-xO-J5N" firstAttribute="top" secondItem="mCP-Zk-lpD" secondAttribute="top" constant="20" id="kfJ-tX-3ah"/>
+                            <constraint firstItem="mCP-Zk-lpD" firstAttribute="bottom" secondItem="Xzq-cs-KoX" secondAttribute="bottom" constant="20" id="rDF-0X-w7Y"/>
+                            <constraint firstItem="mCP-Zk-lpD" firstAttribute="trailing" secondItem="ujg-xO-J5N" secondAttribute="trailing" constant="16" id="tcK-V2-4JV"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="4Pj-md-PVX"/>
+                    <connections>
+                        <outlet property="drinksImage" destination="ujg-xO-J5N" id="H40-MJ-DUK"/>
+                        <outlet property="drinksNameLabel" destination="Xzq-cs-KoX" id="o7M-Pa-20a"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eao-7S-Hop" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="839.20000000000005" y="-2.2488755622188905"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
